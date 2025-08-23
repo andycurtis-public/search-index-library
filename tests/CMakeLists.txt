@@ -22,7 +22,7 @@ add_executable(test_document_builder  src/test_document_builder.c)
 list(APPEND TEST_EXECUTABLES test_document_builder)
 
 set_target_properties(test_document_builder PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)

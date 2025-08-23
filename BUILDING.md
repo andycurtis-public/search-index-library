@@ -44,7 +44,7 @@ sudo apt-get update && sudo apt-get install -y valgrind gdb python3 python3-venv
 Clone & build:
 
 ```bash
-git clone --depth 1 "https://github.com/andycurtis-public/a-memory-library.git" "a-memory-library"
+git clone --depth 1 "https://github.com/contactandyc/a-memory-library.git" "a-memory-library"
 cd a-memory-library
 ./build.sh install
 cd ..
@@ -57,7 +57,7 @@ rm -rf a-memory-library
 Clone & build:
 
 ```bash
-git clone --depth 1 "https://github.com/andycurtis-public/the-lz4-library.git" "the-lz4-library"
+git clone --depth 1 "https://github.com/contactandyc/the-lz4-library.git" "the-lz4-library"
 cd the-lz4-library
 ./build.sh install
 cd ..
@@ -70,7 +70,7 @@ rm -rf the-lz4-library
 Clone & build:
 
 ```bash
-git clone --depth 1 "https://github.com/andycurtis-public/the-macro-library.git" "the-macro-library"
+git clone --depth 1 "https://github.com/contactandyc/the-macro-library.git" "the-macro-library"
 cd the-macro-library
 ./build.sh install
 cd ..
@@ -83,7 +83,7 @@ rm -rf the-macro-library
 Clone & build:
 
 ```bash
-git clone --depth 1 "https://github.com/andycurtis-public/a-tokenizer-library.git" "a-tokenizer-library"
+git clone --depth 1 "https://github.com/contactandyc/a-tokenizer-library.git" "a-tokenizer-library"
 cd a-tokenizer-library
 ./build.sh install
 cd ..
@@ -105,7 +105,7 @@ sudo apt-get update && sudo apt-get install -y zlib1g-dev
 Clone & build:
 
 ```bash
-git clone --depth 1 "https://github.com/andycurtis-public/the-io-library.git" "the-io-library"
+git clone --depth 1 "https://github.com/contactandyc/the-io-library.git" "the-io-library"
 cd the-io-library
 ./build.sh install
 cd ..
@@ -181,7 +181,7 @@ ENV PATH="/opt/venv/bin:${PATH}"
 
 # --- Build & install a-memory-library ---
 RUN set -eux; \
-  git clone --depth 1 "https://github.com/andycurtis-public/a-memory-library.git" "a-memory-library" && \
+  git clone --depth 1 "https://github.com/contactandyc/a-memory-library.git" "a-memory-library" && \
   cd a-memory-library && \
   ./build.sh install && \
   cd .. && \
@@ -189,7 +189,7 @@ RUN set -eux; \
 
 # --- Build & install the-lz4-library ---
 RUN set -eux; \
-  git clone --depth 1 "https://github.com/andycurtis-public/the-lz4-library.git" "the-lz4-library" && \
+  git clone --depth 1 "https://github.com/contactandyc/the-lz4-library.git" "the-lz4-library" && \
   cd the-lz4-library && \
   ./build.sh install && \
   cd .. && \
@@ -197,7 +197,7 @@ RUN set -eux; \
 
 # --- Build & install the-macro-library ---
 RUN set -eux; \
-  git clone --depth 1 "https://github.com/andycurtis-public/the-macro-library.git" "the-macro-library" && \
+  git clone --depth 1 "https://github.com/contactandyc/the-macro-library.git" "the-macro-library" && \
   cd the-macro-library && \
   ./build.sh install && \
   cd .. && \
@@ -205,7 +205,7 @@ RUN set -eux; \
 
 # --- Build & install a-tokenizer-library ---
 RUN set -eux; \
-  git clone --depth 1 "https://github.com/andycurtis-public/a-tokenizer-library.git" "a-tokenizer-library" && \
+  git clone --depth 1 "https://github.com/contactandyc/a-tokenizer-library.git" "a-tokenizer-library" && \
   cd a-tokenizer-library && \
   ./build.sh install && \
   cd .. && \
@@ -213,7 +213,7 @@ RUN set -eux; \
 
 # --- Build & install the-io-library ---
 RUN set -eux; \
-  git clone --depth 1 "https://github.com/andycurtis-public/the-io-library.git" "the-io-library" && \
+  git clone --depth 1 "https://github.com/contactandyc/the-io-library.git" "the-io-library" && \
   cd the-io-library && \
   ./build.sh install && \
   cd .. && \
